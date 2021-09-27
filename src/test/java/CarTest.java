@@ -4,11 +4,11 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class CarTest {
-    car c;
+    Car c;
 
     @Before
     public void setUp() throws Exception {
-        c = new car(5);
+        c = new Car(5);
     }
 
     @Test(timeout = 50)

@@ -1,4 +1,7 @@
-public class car implements Tradable, Drivable{
+/* This file contains a single class, Car, which implements Tradable and Drivable.
+ */
+
+public class Car implements Tradable, Drivable{
     private int maxSpeed;
 
     /**
@@ -6,7 +9,7 @@ public class car implements Tradable, Drivable{
      *
      * @param speed the highest speed the object can achieve.
      */
-    public car(int speed) {
+    public Car(int speed) {
         this.maxSpeed = speed;
     }
 
