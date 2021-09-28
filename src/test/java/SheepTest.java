@@ -28,6 +28,12 @@ public class SheepTest {
     }
 
     @Test(timeout = 50)
+    public void TestDowngradeSpeed() {
+        s.downgradeSpeed();
+        assertEquals(1, s.getMaxSpeed());
+    }
+
+    @Test(timeout = 50)
     public void TestGetPrice() {
         assertEquals(5, s.getPrice());
     }

@@ -1,4 +1,4 @@
-public class Sheep implements Drivable, Domesticatable, Tradable{
+public class Sheep implements Drivable, Domesticatable, Tradable {
 
     private int maxSpeed;
 
