@@ -27,8 +27,13 @@ public class CoachTest {
     }
 
     @Test(timeout = 50)
-    public void TEST_downgradespeed() {
+    public void TestDowngradeSpeed() {
         c.downgradeSpeed();
         assertEquals(0, c.getMaxSpeed());
+    }
+
+    @Test(timeout = 50)
+    public void TestGetPrice() {
+        assertEquals(10, c.getPrice());
     }
 }
